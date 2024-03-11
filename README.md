@@ -1,0 +1,1 @@
+# Asp.Net-Core-SignalR-QR-Siparis-Uygulamas-
