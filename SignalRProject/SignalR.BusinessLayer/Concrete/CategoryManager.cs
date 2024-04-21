@@ -29,17 +29,18 @@ namespace SignalR.BusinessLayer.Concrete
           _categoryDal.Delete(entity);
         }
 
-        public List<Category> TGetAll()
-        {
-            return _categoryDal.GetAll();
-        }
-
+       
         public Category TGetByID(int id)
         {
             return _categoryDal.GetByID(id);
         }
 
-        public void TUpdate(Category entity)
+		public List<Category> TGetListAll()
+		{
+			return _categoryDal.GetListAll();
+		}
+
+		public void TUpdate(Category entity)
         {
             _categoryDal.Update(entity);
         }

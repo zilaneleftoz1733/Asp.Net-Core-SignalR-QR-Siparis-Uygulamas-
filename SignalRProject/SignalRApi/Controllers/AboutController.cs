@@ -20,7 +20,7 @@ namespace SignalRApi.Controllers
             [HttpGet]
             public IActionResult AboutList()
             {
-                var values = _aboutService.TGetAll();
+                var values = _aboutService.TGetListAll();
                 return Ok(values);
             }
             [HttpPost]

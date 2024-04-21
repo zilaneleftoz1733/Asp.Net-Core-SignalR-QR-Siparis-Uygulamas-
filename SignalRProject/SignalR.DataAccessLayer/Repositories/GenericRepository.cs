@@ -27,21 +27,19 @@ namespace SignalR.DataAccessLayer.Repositories
            _context.Remove(entity);
            _context.SaveChanges();
         }
-
-        public List<T> GetAll()
-        {
-            return _context.Set<T>().ToList();   
-        }
-
         public T GetByID(int id)
         {
-            return _context.Set<T>().Find();
+            return _context.Set<T>().Find(id);
         }
+        public List<T> GetListAll()
+		{
+			return _context.Set<T>().ToList();
+		}
 
         public void Update(T entity)
         {
            _context.Update(entity); 
            _context.SaveChanges();
-        }
+        }      
     }
 }

@@ -28,9 +28,9 @@ namespace SignalR.BusinessLayer.Concrete
            _productDal.Delete(entity);
         }
 
-        public List<Product> TGetAll()
+        public List<Product> TGetListAll()
         {
-            return _productDal.GetAll();
+            return _productDal.GetListAll();
         }
 
         public Product TGetByID(int id)
@@ -38,7 +38,7 @@ namespace SignalR.BusinessLayer.Concrete
             return _productDal.GetByID(id);
         }
 
-        public List<Product> TGetProductsWithCategories()
+		public List<Product> TGetProductsWithCategories()
         {
            return _productDal.GetProductsWithCategories();
         }

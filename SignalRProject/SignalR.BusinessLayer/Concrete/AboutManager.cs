@@ -20,10 +20,6 @@ namespace SignalR.BusinessLayer.Concrete
             _aboutDal = aboutDal;
         }
 
-        public object TGetListAll()
-        {
-            throw new NotImplementedException();
-        }
 
         void IGenericService< About>.TAdd( About entity)
         {
@@ -35,9 +31,9 @@ namespace SignalR.BusinessLayer.Concrete
           _aboutDal.Delete(entity);
         }
 
-        List< About> IGenericService< About>.TGetAll()
-        {
-            return _aboutDal.GetAll();
+        List< About> IGenericService< About>.TGetListAll()
+		{
+            return _aboutDal.GetListAll();
         }
 
          About IGenericService< About>.TGetByID(int id)

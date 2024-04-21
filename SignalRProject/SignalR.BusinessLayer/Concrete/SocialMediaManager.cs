@@ -27,9 +27,9 @@ namespace SignalR.BusinessLayer.Concrete
            _socialMediaDal.Delete(entity);
         }
 
-        public List<SocialMedia> TGetAll()
+        public List<SocialMedia> TGetListAll()
         {
-            return _socialMediaDal.GetAll();
+            return _socialMediaDal.GetListAll();
         }
 
         public SocialMedia TGetByID(int id)
@@ -37,7 +37,8 @@ namespace SignalR.BusinessLayer.Concrete
             return _socialMediaDal.GetByID(id);
         }
 
-        public void TUpdate(SocialMedia entity)
+		
+		public void TUpdate(SocialMedia entity)
         {
             _socialMediaDal.Update(entity);
         }

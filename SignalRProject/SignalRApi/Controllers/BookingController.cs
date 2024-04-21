@@ -19,7 +19,7 @@ namespace SignalRApi.Controllers
         [HttpGet]
         public IActionResult BookingList()
         {
-            var values = _bookingService.TGetAll();
+            var values = _bookingService.TGetListAll();
             return Ok(values);
         }
         [HttpPost]

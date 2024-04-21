@@ -27,9 +27,9 @@ namespace SignalR.BusinessLayer.Concrete
            _discountDal.Delete(entity);
         }
 
-        public List<Discount> TGetAll()
+        public List<Discount> TGetListAll()
         {
-            return _discountDal.GetAll();
+            return _discountDal.GetListAll();
         }
 
         public Discount TGetByID(int id)
@@ -37,7 +37,7 @@ namespace SignalR.BusinessLayer.Concrete
           return _discountDal.GetByID(id);
         }
 
-        public void TUpdate(Discount entity)
+		public void TUpdate(Discount entity)
         {
             _discountDal.Update(entity);
         }

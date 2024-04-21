@@ -28,9 +28,9 @@ namespace SignalR.BusinessLayer.Concrete
             _featureDal.Delete(entity);
         }
 
-        public List<Feature> TGetAll()
+        public List<Feature> TGetListAll()
         {
-           return _featureDal.GetAll();
+           return _featureDal.GetListAll();
         }
 
         public Feature TGetByID(int id)
@@ -38,7 +38,7 @@ namespace SignalR.BusinessLayer.Concrete
            return _featureDal.GetByID(id);
         }
 
-        public void TUpdate(Feature entity)
+		public void TUpdate(Feature entity)
         {
            _featureDal.Update(entity);
         }

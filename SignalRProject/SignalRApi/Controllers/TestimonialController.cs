@@ -23,7 +23,7 @@ namespace SignalRApi.Controllers
         [HttpGet]
         public IActionResult TestimonialList()
         {
-            var value = _mapper.Map<List<ResultTestimonialDto>>(_testimonialService.TGetAll());
+            var value = _mapper.Map<List<ResultTestimonialDto>>(_testimonialService.TGetListAll());
             return Ok(value);
         }
         [HttpPost]

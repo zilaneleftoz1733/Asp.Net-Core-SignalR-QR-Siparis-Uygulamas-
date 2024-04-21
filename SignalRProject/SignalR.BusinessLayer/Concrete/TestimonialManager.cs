@@ -27,9 +27,9 @@ namespace SignalR.BusinessLayer.Concrete
             _testimonialDal.Delete(entity);
         }
 
-        public List<Testimonial> TGetAll()
+        public List<Testimonial> TGetListAll()
         {
-            return _testimonialDal.GetAll();
+            return _testimonialDal.GetListAll();
         }
 
         public Testimonial TGetByID(int id)
@@ -37,7 +37,7 @@ namespace SignalR.BusinessLayer.Concrete
             return _testimonialDal.GetByID(id);
         }
 
-        public void TUpdate(Testimonial entity)
+		public void TUpdate(Testimonial entity)
         {
             _testimonialDal.Update(entity);
         }

@@ -12,6 +12,6 @@ namespace SignalR.BusinessLayer.Abstract
         void TDelete(T entity);
         void TUpdate(T entity);
         T TGetByID(int id);//id ye göre getirme
-        List<T> TGetAll();//listeleme
-    }
+		List<T> TGetListAll();
+	}
 }

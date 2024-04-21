@@ -27,9 +27,9 @@ namespace SignalR.BusinessLayer.Concrete
            _contactDal.Delete(entity);
         }
 
-        public List<Contact> TGetAll()
+        public List<Contact> TGetListAll()
         {
-            return _contactDal.GetAll();
+            return _contactDal.GetListAll();
         }
 
         public Contact TGetByID(int id)
@@ -37,7 +37,7 @@ namespace SignalR.BusinessLayer.Concrete
            return _contactDal.GetByID(id);
         }
 
-        public void TUpdate(Contact entity)
+		public void TUpdate(Contact entity)
         {
            _contactDal.Update(entity);
         }

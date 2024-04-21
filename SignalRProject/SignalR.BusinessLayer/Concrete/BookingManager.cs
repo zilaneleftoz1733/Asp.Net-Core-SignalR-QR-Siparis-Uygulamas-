@@ -29,9 +29,9 @@ namespace SignalR.BusinessLayer.Concrete
             _bookingDal.Delete(entity);
         }
 
-        public List<Booking> TGetAll()
+        public List<Booking> TGetListAll()
         {
-            return _bookingDal.GetAll();
+            return _bookingDal.GetListAll();
         }
 
         public Booking TGetByID(int id)
