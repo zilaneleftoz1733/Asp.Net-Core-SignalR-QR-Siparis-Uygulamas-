@@ -252,3 +252,4 @@ C:\Users\lzila\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net6.0\SignalR
 C:\Users\lzila\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net6.0\SignalR.DataAccessLayer.pdb
 C:\Users\lzila\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net6.0\SignalR.DtoLayer.pdb
 C:\Users\lzila\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net6.0\SignalR.EntityLayer.pdb
+C:\Users\lzila\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net6.0\libman.json
