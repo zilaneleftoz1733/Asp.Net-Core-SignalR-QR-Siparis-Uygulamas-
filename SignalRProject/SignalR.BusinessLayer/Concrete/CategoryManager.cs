@@ -1,4 +1,4 @@
-﻿using SignalR.BusinessLayer.Abstract;
+﻿ using SignalR.BusinessLayer.Abstract;
 using SignalR.DataAccessLayer.Abstract;
 using SignalR.DataAccessLayer.EntityFramework;
 using SignalR.EntityLayer.Entities;
@@ -19,6 +19,12 @@ namespace SignalR.BusinessLayer.Concrete
             _categoryDal = categoryDal;
             
         }
+
+        public int TCategoryCount()
+        {
+            return _categoryDal.CategoryCount();
+        }
+
         public void TAdd(Category entity)
         {
            _categoryDal.Add(entity);
@@ -43,6 +49,16 @@ namespace SignalR.BusinessLayer.Concrete
 		public void TUpdate(Category entity)
         {
             _categoryDal.Update(entity);
+        }
+
+        public int TActiveCategoryCount()
+        {
+           return _categoryDal.ActiveCategoryCount();
+        }
+
+        public int TPassiveCategoryCount()
+        {
+            return _categoryDal.PassiveCategoryCount();
         }
     }
 }
