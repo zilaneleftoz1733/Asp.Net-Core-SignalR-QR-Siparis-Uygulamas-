@@ -60,5 +60,7 @@ namespace SignalR.BusinessLayer.Concrete
         {
             return _categoryDal.PassiveCategoryCount();
         }
+
+        
     }
 }
