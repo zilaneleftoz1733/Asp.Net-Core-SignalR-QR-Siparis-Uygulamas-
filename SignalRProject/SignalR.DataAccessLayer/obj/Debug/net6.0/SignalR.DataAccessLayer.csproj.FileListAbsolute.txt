@@ -2,7 +2,9 @@ C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.DataAccessLayer.runtimeconfig.json
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.DataAccessLayer.dll
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.DataAccessLayer.pdb
+C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.DtoLayer.dll
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.EntityLayer.dll
+C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.DtoLayer.pdb
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.EntityLayer.pdb
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net6.0\SignalR.DataAccessLayer.csproj.AssemblyReference.cache
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net6.0\SignalR.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,5 +17,3 @@ C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net6.0\SignalR.DataAccessLayer.pdb
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net6.0\SignalR.DataAccessLayer.genruntimeconfig.cache
 C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net6.0\ref\SignalR.DataAccessLayer.dll
-C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.DtoLayer.dll
-C:\Users\lzila\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net6.0\SignalR.DtoLayer.pdb
